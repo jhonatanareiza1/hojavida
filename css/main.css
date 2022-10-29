@@ -1,7 +1,7 @@
 .jumbotron{
 	background-color:#FF4F00;
 	color: black;
-	margin-top: 50px;
+	margin-top: 56px;
 	
 }
 
@@ -25,6 +25,8 @@ footer{
 	margin-top: 10px;
 }
 .btn-reserva{
-	width: 100%;
-	
+	width: 100%;	
+}
+.icono-tam{
+	padding: 10px;
 }
