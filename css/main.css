@@ -30,7 +30,7 @@ footer{
 .icono-tam{
 	padding: 10px;
 }
-.margen{
-	margin: 4px;
-	padding: 4px;
+.thead-dark{
+	background-color: #063B00;
+	color: #B0FFAF;
 }
