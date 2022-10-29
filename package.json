@@ -1,0 +1,23 @@
+{
+  "name": "hojavida",
+  "version": "1.0.0",
+  "description": "va otra practica node.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonatanareiza1/hojavida.git"
+  },
+  "author": "Jhonatan Areiza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonatanareiza1/hojavida/issues"
+  },
+  "homepage": "https://github.com/jhonatanareiza1/hojavida#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
