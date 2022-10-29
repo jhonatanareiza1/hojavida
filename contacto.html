@@ -43,12 +43,12 @@
 			</ol>
 		</nav>
 		<form>
-			<div class="form-row">
-				<div class="form-group col-sm-4">
+			<div class="form-row d-flex flex-row">
+				<div class="form-group col-sm-6">
 					<label for="nombre">Nombre</label>
 					<input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
 				</div>
-				<div class="form-group col-sm-4">
+				<div class="form-group col-sm-6">
 					<label for="apellido">Apellido</label>
 					<input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
 				</div>
@@ -57,6 +57,40 @@
 					<label for="email">Correo electronico</label>
 					<input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
 			</div>
+			<div class="form-row d-flex flex-row">
+				<div class="form-group col-sm-9">
+					<label for="direccion">Direccion</label>
+					<input type="text" class="form-control" id="direccion" placeholder="Ingresa tu direccion">
+				</div>
+				<div class="form-group col-sm-3">
+					<label for="ciudad">Ciudad</label>
+					<select id="ciudad" class="form-control">
+						<option selected>Medellin</option>
+						<option selected>Bogota</option>
+						<option selected>Envigado</option>
+						<option selected>Cali</option>
+						<option selected>Barranquilla</option>
+						<option selected>Pereira</option>
+						<option selected>Manizales</option>
+						<option selected>Ibague</option>
+						<option selected>Bello</option>
+						<option selected>Guatape</option>
+						<option selected>San Rafael</option>
+						<option selected>San Jeronimo</option>
+						<option selected>Tenjo</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="comentario">Comentarios</label>
+				<textarea id="comentario" class="form-control" rows="10"></textarea>
+			</div>
+			<div class="form-group">
+				<input class="form-check-input" type="checkbox" id="gridCheck">
+				<label class="form-check-label" for="gridCheck">Quiero ser contactado</label>
+			</div>
+			<button type="submit" class="btn btn-outline-primary">Enviar</button>
+			<button type="reset" class="btn btn-outline-primary">Borrar</button>
 		</form>		
 	</div>
 
