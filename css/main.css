@@ -1,0 +1,28 @@
+.jumbotron{
+	background-color:#FF4F00;
+	color: black;
+}
+
+.btn{
+	background-color: #012E00;
+	color:aliceblue;
+	font-family: Arial;
+	font-size: 14px;
+	
+}
+
+footer{
+	padding: 10px 10px 0px 10px;
+	background-color: #FFE5CE;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.card-hotel{
+	flex: 1 150px ;
+	padding: 2px 5px;
+	margin-top: 10px;
+}
+.btn-reserva{
+	width: 100%;
+	
+}
