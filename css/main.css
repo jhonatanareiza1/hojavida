@@ -7,7 +7,7 @@
 
 .btn{
 	background-color: #012E00;
-	color:aliceblue;
+	color: #B0FFAF;
 	font-family: Arial;
 	font-size: 14px;
 	
@@ -20,12 +20,12 @@ footer{
 	margin-top: 10px;
 }
 .card-hotel{
-	flex: 1 150px ;
-	padding: 2px 5px;
+	flex: 1 200px ;
 	margin-top: 10px;
 }
 .btn-reserva{
-	width: 100%;	
+	width: 100%;
+	border-radius: 0px;
 }
 .icono-tam{
 	padding: 10px;
